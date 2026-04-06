@@ -1,7 +1,7 @@
 📡 **WalkieTalkie** _Android App_
 
 
-<img src = "https://github.com/user-attachments/assets/50e4e145-5e0d-49c5-aab9-a1390902a15e" width="30" >
+<img src = "https://github.com/user-attachments/assets/50e4e145-5e0d-49c5-aab9-a1390902a15e" width="400" >
 
 
 
