@@ -72,3 +72,78 @@ Data is sent through Bluetooth OutputStream
 Receiving device reads data using InputStream
 
 Audio is played using AudioTrack
+
+**Key Components**
+
+_MainActivity_
+
+_Handles_:
+
+UI interactions
+
+Bluetooth initialization
+
+Starting server/client threads
+
+ServerThread
+
+Opens BluetoothServerSocket
+
+Waits for incoming connections
+
+ClientThread
+
+Connects to server device using UUID
+
+AudioRecorder
+
+Records microphone input
+
+AudioPlayer
+
+Plays received audio
+
+ConnectedThread
+
+Handles continuous input/output streaming
+
+
+**🧪 Future Improvements**
+
+Push-to-Talk button
+Better audio compression
+Multi-device communication
+Noise reduction
+Modern UI
+Background service support
+WiFi Direct support
+
+**🧑‍💻 Developer**
+
+_Developed using Kotlin for Android as a learning project for:_
+
+Bluetooth networking
+
+Audio streaming
+
+Real-time communication apps
+
+
+📄 **License**
+
+This project is for educational and learning purposes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
