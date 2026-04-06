@@ -13,11 +13,24 @@ This app records audio from one device and streams it to another device over Blu
 
 🚀 **Features**
 
+
 ✅ Device-to-device communication using Bluetooth Classic
+
+
 ✅ Real-time audio streaming between connected devices
+
+
 ✅ Works without internet connection
+
+
 ✅ Server / Client connection model
+
+
 ✅ Built using Kotlin and Android native APIs
+
+
 ✅ Uses AudioRecord for recording and AudioTrack for playback
+
+
 ✅ Handles Bluetooth permissions and connection lifecycle
 
