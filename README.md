@@ -43,19 +43,32 @@ _The application works using a Bluetooth server-client architecture.
 _
 
 
-1️⃣ Server Device
-Opens a Bluetooth Server Socket
-Waits for incoming connections
-Accepts connection from client device
-2️⃣ Client Device
-Searches paired devices
-Connects to the server using BluetoothSocket
-3️⃣ Audio Streaming
+1️⃣ _Server Device_
 
-Once connection is established:
+Opens a Bluetooth Server Socket
+
+Waits for incoming connections
+
+Accepts connection from client device
+
+
+2️⃣ _Client Device_
+
+Searches paired devices
+
+Connects to the server using BluetoothSocket
+
+3️⃣ _Audio Streaming_
+
+_Once connection is established:_
+
 
 Microphone captures audio using AudioRecord
+
 Audio data is converted to byte stream
+
 Data is sent through Bluetooth OutputStream
+
 Receiving device reads data using InputStream
+
 Audio is played using AudioTrack
