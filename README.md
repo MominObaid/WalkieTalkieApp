@@ -34,3 +34,28 @@ This app records audio from one device and streams it to another device over Blu
 
 ✅ Handles Bluetooth permissions and connection lifecycle
 
+
+**🏗️ App Architecture
+**
+
+
+_The application works using a Bluetooth server-client architecture.
+_
+
+
+1️⃣ Server Device
+Opens a Bluetooth Server Socket
+Waits for incoming connections
+Accepts connection from client device
+2️⃣ Client Device
+Searches paired devices
+Connects to the server using BluetoothSocket
+3️⃣ Audio Streaming
+
+Once connection is established:
+
+Microphone captures audio using AudioRecord
+Audio data is converted to byte stream
+Data is sent through Bluetooth OutputStream
+Receiving device reads data using InputStream
+Audio is played using AudioTrack
