@@ -1,6 +1,9 @@
 📡 **WalkieTalkie** _Android App_
 
 
+<img src = "https://github.com/user-attachments/assets/50e4e145-5e0d-49c5-aab9-a1390902a15e" width="30" >
+
+
 
 A real-time Walkie-Talkie Android application built with Kotlin that allows two Android devices to communicate using Bluetooth Classic (RFCOMM) without requiring an internet connection.
 
