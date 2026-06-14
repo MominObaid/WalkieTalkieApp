@@ -38,8 +38,7 @@ This app records audio from one device and streams it to another device over Blu
 ✅ Handles Bluetooth permissions and connection lifecycle
 
 
-**🏗️ App Architecture
-**
+**🏗️ App Architecture**
 
 
 _The application works using a Bluetooth server-client architecture.
